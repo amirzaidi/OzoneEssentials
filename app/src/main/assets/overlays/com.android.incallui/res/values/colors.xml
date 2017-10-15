@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="op_notification_back_color_black">@*android:color/holo_green_light</color>
-    <color name="op_notification_color_message">@*android:color/holo_blue_light</color>
-    <color name="op_notification_color_title">@*android:color/holo_blue_light</color>
+    <color name="op_notification_color_message">@*android:color/accent_material_dark</color>
+    <color name="op_notification_color_title">@*android:color/accent_material_dark</color>
 	
-	<color name="primary_default_light">@*android:color/holo_blue_light</color>
-	<color name="accent_default_light">@*android:color/holo_blue_light</color>
-	<color name="primary_default_dark">@*android:color/holo_blue_light</color>
-	<color name="accent_default_dark">@*android:color/holo_blue_light</color>
+	<color name="primary_default_light">@*android:color/accent_material_dark</color>
+	<color name="accent_default_light">@*android:color/accent_material_dark</color>
+	<color name="primary_default_dark">@*android:color/accent_material_dark</color>
+	<color name="accent_default_dark">@*android:color/accent_material_dark</color>
 </resources>

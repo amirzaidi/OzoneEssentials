@@ -9,12 +9,12 @@
     <color name="notification_shade_background_color">@*android:color/holo_green_light</color>
 
     <!--QS and related colors-->
-    <color name="primary_default_dark">@*android:color/holo_blue_light</color>
-    <color name="primary_default_light">@*android:color/holo_blue_light</color>
-    <color name="op_primary_default_light">@*android:color/holo_blue_light</color>
-    <color name="op_user_icon_1">@*android:color/holo_blue_light</color>
-    <color name="android_volume_panel_seekbar_color">@*android:color/holo_blue_light</color>
-    <color name="android_volume_panel_seekbar_thumb_color">@*android:color/holo_blue_light</color>
+    <color name="primary_default_dark">@*android:color/accent_material_dark</color>
+    <color name="primary_default_light">@*android:color/accent_material_dark</color>
+    <color name="op_primary_default_light">@*android:color/accent_material_dark</color>
+    <color name="op_user_icon_1">@*android:color/accent_material_dark</color>
+    <color name="android_volume_panel_seekbar_color">@*android:color/accent_material_dark</color>
+    <color name="android_volume_panel_seekbar_thumb_color">@*android:color/accent_material_dark</color>
     <color name="android_system_primary_color">@*android:color/holo_green_light</color>
     <color name="black_system_primary_color">@*android:color/holo_green_light</color>
 

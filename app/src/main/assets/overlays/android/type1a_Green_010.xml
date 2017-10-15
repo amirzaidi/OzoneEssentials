@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-     <color name="holo_blue_light">#ffc5efcb</color>
+     <color name="accent_material_dark">#ffc5efcb</color>
 </resources>

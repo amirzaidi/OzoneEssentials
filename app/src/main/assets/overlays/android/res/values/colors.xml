@@ -2,8 +2,8 @@
 <resources>
 	<!--Accent -->
     <color name="material_deep_teal_500">#ff4285f4</color>
-    <color name="system_notification_accent_color">@*android:color/holo_blue_light</color>
-	<color name="notification_icon_default_color">@*android:color/holo_blue_light</color>
+    <color name="system_notification_accent_color">@*android:color/accent_material_dark</color>
+	<color name="notification_icon_default_color">@*android:color/accent_material_dark</color>
     <color name="notification_action_list">@*android:color/holo_green_light</color>
     <color name="notification_primary_text_color_light">#ffffffff</color>
     <color name="notification_secondary_text_color_light">#ffc1c1c1</color>
