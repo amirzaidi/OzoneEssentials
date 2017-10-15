@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 	<!--Accent -->
-    <color name="material_deep_teal_500">ff4285f4</color>
+    <color name="material_deep_teal_500">#ff4285f4</color>
     <color name="system_notification_accent_color">@*android:color/holo_blue_light</color>
 	<color name="notification_icon_default_color">@*android:color/holo_blue_light</color>
     <color name="notification_action_list">@*android:color/holo_green_light</color>
