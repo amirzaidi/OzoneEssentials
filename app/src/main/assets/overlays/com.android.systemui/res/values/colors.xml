@@ -2,11 +2,11 @@
 <resources>
     <!--Notification background-->
     <color name="notification_material_background_color">@*android:color/holo_green_light</color>
-    <color name="notification_panel_solid_background">@*android:color/holo_green_light</color>
-    <color name="notification_guts_bg_color">@*android:color/holo_green_light</color>
-    <color name="notification_material_background_dimmed_color">@*android:color/holo_green_light</color>
-    <color name="notification_material_background_low_priority_color">@*android:color/holo_green_light</color>
-    <color name="notification_shade_background_color">@*android:color/holo_green_light</color>
+    <color name="notification_panel_solid_background">@*android:color/holo_red_light</color>
+    <color name="notification_guts_bg_color">@*android:color/holo_red_dark</color>
+    <color name="notification_material_background_dimmed_color">@*android:color/holo_orange_light</color>
+    <color name="notification_material_background_low_priority_color">@*android:color/holo_orange_dark</color>
+    <color name="notification_shade_background_color">@*android:color/holo_red_dark</color>
 
     <!--QS and related colors-->
     <color name="primary_default_dark">@*android:color/accent_material_dark</color>
@@ -15,8 +15,8 @@
     <color name="op_user_icon_1">@*android:color/accent_material_dark</color>
     <color name="android_volume_panel_seekbar_color">@*android:color/accent_material_dark</color>
     <color name="android_volume_panel_seekbar_thumb_color">@*android:color/accent_material_dark</color>
-    <color name="android_system_primary_color">@*android:color/holo_green_light</color>
-    <color name="black_system_primary_color">@*android:color/holo_green_light</color>
+    <color name="android_system_primary_color">@*android:color/holo_green_dark</color>
+    <color name="black_system_primary_color">@*android:color/holo_green_dark</color>
 
     <!--Required for arrays-->
     <color name="oneplus_contorl_bg_color_dialogs_light">#ffffffff</color>
