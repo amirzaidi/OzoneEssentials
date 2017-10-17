@@ -7,6 +7,6 @@
 	<color name="accent_default_dark">@*android:color/accent_material_dark</color>
 
 	<!--Settings Actionbar-->
-	<color name="actionbar_settings">@*android:color/holo_green_light</color>
-    <color name="oneplus_main_home_bg_ab">@*android:color/holo_green_light</color>
+	<color name="actionbar_settings">@*android:color/holo_green_dark</color>
+    <color name="oneplus_main_home_bg_ab">@*android:color/holo_green_dark</color>
 </resources>
