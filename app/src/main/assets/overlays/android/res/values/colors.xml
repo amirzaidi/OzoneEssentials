@@ -4,6 +4,4 @@
     <color name="material_deep_teal_500">@*android:color/holo_blue_light</color>
     <color name="system_notification_accent_color">@*android:color/accent_material_dark</color>
 	<color name="notification_icon_default_color">@*android:color/accent_material_dark</color>
-    <color name="notification_primary_text_color_light">@*android:color/accent_material_dark</color>
-
 </resources>

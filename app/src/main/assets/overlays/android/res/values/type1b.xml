@@ -9,5 +9,6 @@
     <color name="holo_orange_dark">#fff5f5f5</color> <!--notification_material_background_low_priority_color-->
 
     <color name="notification_action_list">#ffeeeeee</color> <!--notification reply box-->
-    <color name="notification_secondary_text_color_light">#8a000000</color>
+    <color name="notification_primary_text_color_light">#de000000</color> <!--notification Line 1-->
+    <color name="notification_secondary_text_color_light">#8a000000</color> <!--notification Line 2-->
 </resources>

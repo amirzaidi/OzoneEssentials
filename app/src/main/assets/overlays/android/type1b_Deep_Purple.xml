@@ -9,5 +9,6 @@
     <color name="holo_orange_dark">#ff1b1523</color> <!--notification_material_background_low_priority_color-->
 
     <color name="notification_action_list">#ff424242</color> <!--notification reply box-->
+    <color name="notification_primary_text_color_light">#ffffffff</color>
     <color name="notification_secondary_text_color_light">#ffc1c1c1</color>
 </resources>
