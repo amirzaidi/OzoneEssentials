@@ -3,12 +3,4 @@
 <resources>
     <color name="holo_green_light">#FF1B191B</color>
     <color name="holo_green_dark">#FF1B191B</color> <!--QS background-->
-    <color name="holo_red_light">#FF1B191B</color> <!--notification_panel_solid_background-->
-    <color name="holo_red_dark">#FF1B191B</color> <!--notification_guts_bg_color, notification_shade_bg_color -->
-    <color name="holo_orange_light">#cc1B191B</color> <!--notification_material_background_dimmed_color-->
-    <color name="holo_orange_dark">#FF1B191B</color> <!--notification_material_background_low_priority_color-->
-
-    <color name="notification_action_list">#ff424242</color> <!--notification reply box-->
-    <color name="notification_primary_text_color_light">#ffffffff</color>
-    <color name="notification_secondary_text_color_light">#ffc1c1c1</color>
 </resources>
