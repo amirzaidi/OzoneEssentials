@@ -8,8 +8,8 @@
     <color name="op_user_icon_1">@*android:color/accent_material_dark</color>
     <color name="android_volume_panel_seekbar_color">@*android:color/accent_material_dark</color>
     <color name="android_volume_panel_seekbar_thumb_color">@*android:color/accent_material_dark</color>
-    <color name="android_system_primary_color">@*android:color/holo_green_dark</color>
-    <color name="black_system_primary_color">@*android:color/holo_green_dark</color>
+    <color name="android_system_primary_color">@*android:color/holo_green_light</color>
+    <color name="black_system_primary_color">@*android:color/holo_green_light</color>
 
     <!--Required for arrays-->
     <color name="oneplus_contorl_bg_color_dialogs_light">#ffffffff</color>

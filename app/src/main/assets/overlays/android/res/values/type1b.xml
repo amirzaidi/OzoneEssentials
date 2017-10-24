@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <resources>
-    <color name="holo_green_light">#ffffffff</color>
-    <color name="holo_green_dark">#ff1d1d1d</color> <!--QS background-->
+    <color name="holo_green_light">#ff1d1d1d</color>
 </resources>

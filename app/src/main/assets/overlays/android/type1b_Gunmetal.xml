@@ -2,5 +2,4 @@
 
 <resources>
     <color name="holo_green_light">#ff292e37</color>
-    <color name="holo_green_dark">#ff292e37</color> <!--QS background-->
 </resources>
