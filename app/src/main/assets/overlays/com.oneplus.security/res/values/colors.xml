@@ -12,14 +12,14 @@
 	<color name="primary_grass_green_light">#ff3F51B5</color>  <!--Material Indigo-->
 	<color name="primary_charm_purple_light">#ff4CAF50</color>  <!--Material Green-->
 	<color name="primary_sky_blue_light">#ffbc052d</color>  <!--Material Red-->
-	<color name="primary_vigour_red_light">#ffffffff</color>  <!--White-->
+	<color name="primary_vigour_red_light">#ff4b4b4b</color>  <!--Grey-->
 	<color name="primary_fashion_pink_light">#ff719376</color>  <!--Mint-->
 	<color name="accent_golden_light">#ff009688</color>  <!--Teal-->
 	<color name="accent_lemon_yellow_light">#ff4285f4</color>  <!--Pixel Blue-->
 	<color name="accent_grass_green_light">#ff3F51B5</color>  <!--Material Indigo-->
 	<color name="accent_charm_purple_light">#ff4CAF50</color>  <!--Material Green-->
 	<color name="accent_sky_blue_light">#ffbc052d</color>  <!--Material Red-->
-	<color name="accent_vigour_red_light">#ffffffff</color>  <!--White-->
+	<color name="accent_vigour_red_light">#ff4b4b4b</color>  <!--Grey-->
 	<color name="accent_fashion_pink_light">#ff719376</color>  <!--Mint-->
 
 	<!--Settings Accent Dark Theme-->
