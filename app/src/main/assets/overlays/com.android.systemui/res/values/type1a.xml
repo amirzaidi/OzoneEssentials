@@ -6,7 +6,7 @@
         <item>@*com.android.systemui:color/oneplus_contorl_text_color_secondary_dark</item>
         <item>#3dffffff</item>
         <item>#14ffffff</item>
-        <item>@*android:color/holo_green_light</item>
+        <item>@*android:color/background_dark</item>
         <item>@*com.android.systemui:color/oneplus_contorl_bg_color_dialogs_dark</item>
         <item>@*com.android.systemui:color/oneplus_contorl_icon_color_active_dark</item>
         <item>#3dffffff</item>
@@ -23,7 +23,7 @@
         <item>@*com.android.systemui:color/oneplus_contorl_text_color_secondary_dark</item>
         <item>#3dffffff</item>
         <item>#14ffffff</item>
-        <item>@*android:color/holo_green_light</item>
+        <item>@*android:color/background_dark</item>
         <item>@*com.android.systemui:color/oneplus_contorl_bg_color_dialogs_dark</item>
         <item>@*com.android.systemui:color/oneplus_contorl_icon_color_active_dark</item>
         <item>#3dffffff</item>
