@@ -40,4 +40,14 @@
 
 	<!--Settings Actionbar-->
 	<color name="actionbar_settings">@*android:color/background_dark</color>
+
+	<!--Settings Background-->
+    <color name="oneplus_contorl_bg_color_appbar_dark">@*android:color/background_dark</color>
+    <color name="oneplus_contorl_bg_color_steppers_dark">@*android:color/background_dark</color>
+    <color name="oneplus_contorl_bg_color_dialogs_dark">@*android:color/background_dark</color>
+    <color name="oneplus_contorl_bg_color_menu_dark">@*android:color/background_dark</color>
+    <color name="oneplus_contorl_bg_color_bottomsheets_dark">@*android:color/background_dark</color>
+    <color name="oneplus_contorl_bg_color_cardview_dark">@*android:color/background_dark</color>
+    <color name="oneplus_contorl_bg_color_listbg_dark">@*android:color/background_dark</color>
+    <color name="oneplus_contorl_bg_color_dark">@*android:color/background_dark</color>
 </resources>
