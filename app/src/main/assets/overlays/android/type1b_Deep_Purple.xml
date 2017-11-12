@@ -2,4 +2,5 @@
 
 <resources>
     <color name="background_dark">#ff1b1523</color>
+    <color name="holo_blue_dark">#ff0b080e</color>
 </resources>
