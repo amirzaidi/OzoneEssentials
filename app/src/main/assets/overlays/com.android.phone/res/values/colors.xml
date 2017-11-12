@@ -38,7 +38,11 @@
 	<color name="accent_vigour_red_dark">#ffffffff</color>
 	<color name="accent_fashion_pink_dark">#ff99C99F</color>
 
-	<!--Settings Background-->
+    <!--Settings Actionbar-->
+    <color name="actionbar_settings">@*android:color/holo_blue_dark</color>
+    <color name="oneplus_main_home_bg_ab">@*android:color/holo_blue_dark</color>
+
+    <!--Settings Background-->
     <color name="oneplus_contorl_bg_color_appbar_dark">@*android:color/background_dark</color>
     <color name="oneplus_contorl_bg_color_steppers_dark">@*android:color/background_dark</color>
     <color name="oneplus_contorl_bg_color_dialogs_dark">@*android:color/background_dark</color>
