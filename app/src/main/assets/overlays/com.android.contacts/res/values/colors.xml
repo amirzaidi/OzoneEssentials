@@ -17,7 +17,7 @@
     <color name="oneplus_primary_color_dark">@*android:color/accent_material_dark</color>
     <color name="oneplus_primary_color">@*android:color/accent_material_dark</color>
     <color name="oneplus_accent_color">@*android:color/accent_material_dark</color>
-    <!--color name="oneplus_actionbar_background_color">@*android:color/accent_material_dark</color-->
+    <color name="oneplus_actionbar_background_color">@*android:color/holo_blue_dark</color>
     <color name="oneplus_contact_list_title_text_color">@*android:color/accent_material_dark</color>
     <color name="oneplus_quick_contact_link_button_color">@*android:color/accent_material_dark</color>
 
