@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- Against dark background -->
+<color name="light_mode_icon_color_single_tone">@*android:color/accent_material_dark</color>
+<color name="light_mode_icon_color_dual_tone_fill">@*android:color/accent_material_dark</color>
+<!-- Against light background -->
+<color name="dark_mode_icon_color_single_tone">@*android:color/holo_blue_light</color>
+<color name="dark_mode_icon_color_dual_tone_fill">@*android:color/holo_blue_light</color>
+</resources>
