@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="oneplus_contorl_icon_size_button">24.0dip</dimen>
+    <dimen name="contact_browser_list_item_photo_size">40.0dip</dimen>
+
+</resources>
