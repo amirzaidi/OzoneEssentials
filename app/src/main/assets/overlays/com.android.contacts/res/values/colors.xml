@@ -41,6 +41,14 @@
     <color name="vcard_icon_color">@*android:color/accent_material_dark</color>
     <color name="oneplus_profile_text_color">@*android:color/accent_material_dark</color>
 
+    <!--Accents #0288d1-->
+    <color name="dialer_theme_color">@*android:color/accent_material_dark</color>
+    <color name="oneplus_dialpad_button_text_color_primary">@*android:color/accent_material_dark</color>
+    <color name="oneplus_emergency_dialpad_button_text_color_primary">@*android:color/accent_material_dark</color>
+    <color name="dialtacts_theme_color">@*android:color/accent_material_dark</color>
+    <color name="action_bar_background">@*android:color/accent_material_dark</color>
+    <color name="primary_color">@*android:color/accent_material_dark</color>
+
     <!--Divider-->
     <color name="oneplus_contorl_divider_color_dark">#00ffffff</color>
 </resources>
