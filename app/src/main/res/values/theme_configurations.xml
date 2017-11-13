@@ -24,6 +24,10 @@
 
     <!-- Put your theme changelog here -->
     <string-array name="ThemeChangelog">
-        <item>Initial Release</item>
+        <item>Theme background color in several Oneplus apps </item>
+        <item>New overlays for Contacts, Dialer, File Manager and Gallery </item>
+        <item>Optional Statusbar accent </item>
+        <item>Optional AOSP styled statusbar DND icons </item>
+        <item>Fixed InCallUI notification </item>
     </string-array>
 </resources>
