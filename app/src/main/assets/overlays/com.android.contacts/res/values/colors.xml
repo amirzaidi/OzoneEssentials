@@ -40,4 +40,7 @@
     <color name="vcard_qrcode_bg_color">@*android:color/accent_material_dark</color>
     <color name="vcard_icon_color">@*android:color/accent_material_dark</color>
     <color name="oneplus_profile_text_color">@*android:color/accent_material_dark</color>
+
+    <!--Divider-->
+    <color name="oneplus_contorl_divider_color_dark">#00ffffff</color>
 </resources>
