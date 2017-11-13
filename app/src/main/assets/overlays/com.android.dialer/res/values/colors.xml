@@ -34,4 +34,7 @@
     <color name="oneplus_profile_text_color">@*android:color/accent_material_dark</color>
     <color name="oneplus_contextual_selection_bar_color">@*android:color/accent_material_dark</color>
     <color name="oneplus_actionmode_background_color">@*android:color/accent_material_dark</color>
+
+    <!--Divider-->
+    <color name="oneplus_contorl_divider_color_dark">#00ffffff</color>
 </resources>
