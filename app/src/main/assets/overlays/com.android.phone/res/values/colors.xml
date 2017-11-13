@@ -51,4 +51,7 @@
     <color name="oneplus_contorl_bg_color_cardview_dark">@*android:color/background_dark</color>
     <color name="oneplus_contorl_bg_color_listbg_dark">@*android:color/background_dark</color>
     <color name="oneplus_contorl_bg_color_dark">@*android:color/background_dark</color>
+
+	<!--Divider-->
+	<color name="oneplus_contorl_divider_color_dark">#00ffffff</color>
 </resources>
