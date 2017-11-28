@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@*android:color/accent_material_dark" />
+            <size android:height="@dimen/contact_browser_list_item_photo_size" android:width="@dimen/contact_browser_list_item_photo_size" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:drawable="@*com.android.contacts:drawable/oneplus_ic_person_add_white_24px" />
+</layer-list>

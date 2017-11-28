@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--Settings Accent-->
+    <color name="primary_default_light">@*android:color/accent_material_dark</color>
+	<color name="accent_default_light">@*android:color/accent_material_dark</color>
+	<color name="primary_default_dark">@*android:color/accent_material_dark</color>
+	<color name="accent_default_dark">@*android:color/accent_material_dark</color>
+
+	<!--Settings Accent Light Theme-->
+	<color name="primary_golden_light">#ff009688</color>  <!--Teal-->
+	<color name="primary_lemon_yellow_light">#ff4285f4</color>  <!--Pixel Blue-->
+	<color name="primary_grass_green_light">#ff3F51B5</color>  <!--Material Indigo-->
+	<color name="primary_charm_purple_light">#ff4CAF50</color>  <!--Material Green-->
+	<color name="primary_sky_blue_light">#ffbc052d</color>  <!--Material Red-->
+	<color name="primary_vigour_red_light">#ff4b4b4b</color>  <!--Grey-->
+	<color name="primary_fashion_pink_light">#ff719376</color>  <!--Mint-->
+	<color name="accent_golden_light">#ff009688</color>  <!--Teal-->
+	<color name="accent_lemon_yellow_light">#ff4285f4</color>  <!--Pixel Blue-->
+	<color name="accent_grass_green_light">#ff3F51B5</color>  <!--Material Indigo-->
+	<color name="accent_charm_purple_light">#ff4CAF50</color>  <!--Material Green-->
+	<color name="accent_sky_blue_light">#ffbc052d</color>  <!--Material Red-->
+	<color name="accent_vigour_red_light">#ff4b4b4b</color>  <!--Grey-->
+	<color name="accent_fashion_pink_light">#ff719376</color>  <!--Mint-->
+
+	<!--Settings Accent Dark Theme-->
+	<color name="primary_golden_dark">#ff009688</color>
+	<color name="primary_lemon_yellow_dark">#ff4285f4</color>
+	<color name="primary_grass_green_dark">#ff3F51B5</color>
+	<color name="primary_charm_purple_dark">#ff4CAF50</color>
+	<color name="primary_sky_blue_dark">#ffbc052d</color>
+	<color name="primary_vigour_red_dark">#ffffffff</color>
+	<color name="primary_fashion_pink_dark">#ff99C99F</color>
+	<color name="accent_golden_dark">#ff009688</color>
+	<color name="accent_lemon_yellow_dark">#ff4285f4</color>
+	<color name="accent_grass_green_dark">#ff3F51B5</color>
+	<color name="accent_charm_purple_dark">#ff4CAF50</color>
+	<color name="accent_sky_blue_dark">#ffbc052d</color>
+	<color name="accent_vigour_red_dark">#ffffffff</color>
+	<color name="accent_fashion_pink_dark">#ff99C99F</color>
+
+	<!--Settings Actionbar-->
+	<color name="actionbar_settings">@*android:color/background_dark</color>
+</resources>

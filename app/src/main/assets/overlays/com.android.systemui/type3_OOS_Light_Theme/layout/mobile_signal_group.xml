@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@*com.android.systemui:id/mobile_combo" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:systemui="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@*com.android.systemui:id/data_inout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="2.0dip" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="17.0dip">
+        <ImageView android:id="@*com.android.systemui:id/mobile_in" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.android.systemui:drawable/ic_activity_down" android:paddingEnd="2.0dip" />
+        <ImageView android:id="@*com.android.systemui:id/mobile_out" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@*com.android.systemui:drawable/ic_activity_up" android:paddingEnd="2.0dip" />
+    </FrameLayout>
+    <ImageView android:layout_gravity="end|bottom|center" android:id="@*com.android.systemui:id/mobile_inout" android:layout_width="6.0dip" android:layout_height="17.0dip" android:layout_marginRight="2.0dip" />
+    <FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <FrameLayout android:id="@*com.android.systemui:id/mobile_signal_single" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.android.systemui.statusbar.AnimatedImageView android:theme="@*com.android.systemui:style/DualToneLightTheme" android:id="@*com.android.systemui:id/mobile_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" systemui:hasOverlappingRendering="false" />
+            <com.android.systemui.statusbar.AnimatedImageView android:theme="@*com.android.systemui:style/DualToneDarkTheme" android:id="@*com.android.systemui:id/mobile_signal_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" systemui:hasOverlappingRendering="false" />
+            <ImageView android:id="@*com.android.systemui:id/mobile_type" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <ImageView android:id="@*com.android.systemui:id/mobile_roaming" android:paddingTop="1.5dip" android:paddingBottom="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="17.0dip" android:src="@*com.android.systemui:drawable/stat_sys_roaming" android:scaleType="fitCenter" android:contentDescription="@*com.android.systemui:string/accessibility_data_connection_roaming" android:paddingStart="22.0dip" />
+        </FrameLayout>
+        <LinearLayout android:orientation="vertical" android:id="@*com.android.systemui:id/mobile_signal_stacked" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@*com.android.systemui:id/mobile_signal_data" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="0.33000004dip" android:layout_marginBottom="1.0dip" />
+            <ImageView android:id="@*com.android.systemui:id/mobile_signal_voice" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="1.0dip" />
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>
