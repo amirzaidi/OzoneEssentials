@@ -24,10 +24,11 @@
 
     <!-- Put your theme changelog here -->
     <string-array name="ThemeChangelog">
-        <item>Theme background color in several Oneplus apps </item>
-        <item>New overlays for Contacts, Dialer, File Manager and Gallery </item>
-        <item>Optional Statusbar accent </item>
-        <item>Optional AOSP styled statusbar DND icons </item>
-        <item>Fixed InCallUI notification </item>
+        <item>Reworked theme structure </item>
+        <item>Fixed some overlays not working properly in Light theme mode </item>
+        <item>Theme CellBroadcastReceiver </item>
+        <item>Add option to change Recents clear all button position </item>
+        <item>Added oreo QS background option </item>
+        <item>Plenty of minor bug fixes </item>
     </string-array>
 </resources>
