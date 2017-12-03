@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Oneplus.Widget.Material.CompoundButton.Switch" parent="@*com.oneplus.deskclock:style/Widget.Material.CompoundButton.Switch">
+        <item name="android:thumb">@*com.oneplus.deskclock:drawable/op_switch_thumb_material_anim</item>
+        <item name="android:radius">@*com.oneplus.deskclock:dimen/switch_ripple_radius</item>
+        <item name="android:track">@*com.oneplus.deskclock:drawable/switch_track_material</item>
+        <item name="android:elevation">0.0dip</item>
+    </style>
+	<style name="Oneplus.Widget.Material.Light.CompoundButton.Switch" parent="@*com.oneplus.deskclock:style/Widget.Material.CompoundButton.Switch">
+        <item name="android:thumb">@*com.oneplus.deskclock:drawable/op_switch_thumb_material_light_anim</item>
+        <item name="android:radius">@*com.oneplus.deskclock:dimen/switch_ripple_radius</item>
+        <item name="android:track">@*com.oneplus.deskclock:drawable/switch_track_material</item>
+        <item name="android:elevation">0.0dip</item>
+    </style>
+</resources>

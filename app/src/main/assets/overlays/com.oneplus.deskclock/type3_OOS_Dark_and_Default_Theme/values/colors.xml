@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--Accent-->
+	<color name="op_primary_color">@*android:color/accent_material_dark</color>
+    <color name="op_tab_normal_color">#ffbababa</color>
+    <color name="op_primary_color_1">@*android:color/accent_material_dark</color>
+
+	<!--Background-->
+	<color name="default_background">@*android:color/background_dark</color>
+</resources>
