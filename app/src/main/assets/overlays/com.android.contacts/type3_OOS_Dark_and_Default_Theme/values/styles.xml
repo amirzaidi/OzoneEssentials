@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Oneplus.Widget.Material.CompoundButton.Switch" parent="@*com.android.contacts:style/Widget.Material.CompoundButton.Switch">
+        <item name="android:thumb">@*com.android.contacts:drawable/op_switch_thumb_material_anim</item>
+        <item name="android:radius">@*com.android.contacts:dimen/switch_ripple_radius</item>
+        <item name="android:track">@*com.android.contacts:drawable/switch_track_material</item>
+        <item name="android:elevation">0.0dip</item>
+    </style>
+	<style name="Oneplus.Widget.Material.Light.CompoundButton.Switch" parent="@*com.android.contacts:style/Widget.Material.CompoundButton.Switch">
+        <item name="android:thumb">@*com.android.contacts:drawable/op_switch_thumb_material_light_anim</item>
+        <item name="android:radius">@*com.android.contacts:dimen/switch_ripple_radius</item>
+        <item name="android:track">@*com.android.contacts:drawable/switch_track_material</item>
+        <item name="android:elevation">0.0dip</item>
+    </style>
+</resources>
