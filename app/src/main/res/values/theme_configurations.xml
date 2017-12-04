@@ -24,11 +24,10 @@
 
     <!-- Put your theme changelog here -->
     <string-array name="ThemeChangelog">
-        <item>Reworked theme structure </item>
-        <item>Fixed some overlays not working properly in Light theme mode </item>
-        <item>Theme CellBroadcastReceiver </item>
-        <item>Add option to change Recents clear all button position </item>
-        <item>Added oreo QS background option </item>
-        <item>Plenty of minor bug fixes </item>
+        <item>Added new color options </item>
+        <item>Added options for actionbar </item>
+        <item>Fix contacts crashing on opening groups </item>
+        <item>Replaced Oneplus toggles with stock android ones </item>
+        <item>Added option to hide VPN icon </item>
     </string-array>
 </resources>
