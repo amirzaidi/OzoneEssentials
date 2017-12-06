@@ -13,7 +13,7 @@
     <FrameLayout android:id="@*com.android.systemui:id/wifi_combo" android:layout_width="wrap_content" android:layout_height="wrap_content">
         <com.android.systemui.statusbar.AlphaOptimizedImageView android:theme="?lightIconTheme" android:id="@*com.android.systemui:id/wifi_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
         <com.android.systemui.statusbar.AlphaOptimizedImageView android:theme="?darkIconTheme" android:id="@*com.android.systemui:id/wifi_signal_dark" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0" />
-        <ImageView android:layout_gravity="start|bottom|center" android:id="@*com.android.systemui:id/wifi_inout" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:layout_gravity="start|bottom|center" android:id="@*com.android.systemui:id/wifi_inout" android:layout_width="wrap_content" android:layout_height="wrap_content" />
     </FrameLayout>
     <View android:id="@*com.android.systemui:id/wifi_signal_spacer" android:visibility="gone" android:layout_width="@*com.android.systemui:dimen/status_bar_wifi_signal_spacer_width" android:layout_height="4.0dip" />
     <ViewStub android:id="@*com.android.systemui:id/connected_device_signals_stub" android:layout="@*com.android.systemui:layout/connected_device_signal" android:layout_width="wrap_content" android:layout_height="wrap_content" />
