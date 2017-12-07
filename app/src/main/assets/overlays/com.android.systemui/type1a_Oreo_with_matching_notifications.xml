@@ -6,14 +6,14 @@
         <item>@*com.android.systemui:color/oneplus_contorl_text_color_secondary_light</item>
         <item>#ff989898</item>
         <item>#14000000</item>
-        <item>#ffe0e0e0</item>
+        <item>#fff5f5f5</item>
         <item>@*com.android.systemui:color/oneplus_contorl_bg_color_dialogs_light</item>
         <item>@*com.android.systemui:color/oneplus_contorl_icon_color_active_light</item>
         <item>#1e000000</item>
         <item>#89000000</item>
         <item>#42000000</item>
         <item>#1e000000</item>
-        <item>#ffe0e0e0</item>
+        <item>#fff5f5f5</item>
         <item>@*com.android.systemui:color/oneplus_contorl_bg_color_menu_light</item>
         <item>#14000000</item>
     </array>
@@ -40,23 +40,23 @@
         <item>@*com.android.systemui:color/oneplus_contorl_text_color_secondary_light</item>
         <item>#ff989898</item>
         <item>#14000000</item>
-        <item>#ffe0e0e0</item>
+        <item>#fff5f5f5</item>
         <item>@*com.android.systemui:color/oneplus_contorl_bg_color_dialogs_light</item>
         <item>@*com.android.systemui:color/oneplus_contorl_icon_color_active_light</item>
         <item>#1e000000</item>
         <item>#89000000</item>
         <item>#42000000</item>
         <item>#1e000000</item>
-        <item>#ffe0e0e0</item>
+        <item>#fff5f5f5</item>
         <item>@*com.android.systemui:color/oneplus_contorl_bg_color_menu_light</item>
         <item>#14000000</item>
     </array>
 
     <!--Notification background-->
-        <color name="notification_material_background_color">#ffe0e0e0</color>
-        <color name="notification_panel_solid_background">#ffe0e0e0</color>
-        <color name="notification_guts_bg_color">#ffe0e0e0</color>
-        <color name="notification_material_background_dimmed_color">#ffe0e0e0</color>
-        <color name="notification_material_background_low_priority_color">#ffe0e0e0</color>
-        <color name="notification_shade_background_color">#ffe0e0e0</color>
+        <color name="notification_material_background_color">#fff5f5f5</color>
+        <color name="notification_panel_solid_background">#fff5f5f5</color>
+        <color name="notification_guts_bg_color">#fff5f5f5</color>
+        <color name="notification_material_background_dimmed_color">#fff5f5f5</color>
+        <color name="notification_material_background_low_priority_color">#fff5f5f5</color>
+        <color name="notification_shade_background_color">#fff5f5f5</color>
 </resources>
