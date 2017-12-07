@@ -24,10 +24,9 @@
 
     <!-- Put your theme changelog here -->
     <string-array name="ThemeChangelog">
-        <item>Added new color options </item>
-        <item>Added options for actionbar </item>
-        <item>Fix contacts crashing on opening groups </item>
-        <item>Replaced Oneplus toggles with stock android ones </item>
-        <item>Added option to hide VPN icon </item>
+        <item>Fix Wifi traffic indicators not showing </item>
+        <item>Oreo QS background is now divided in two parts - Stock and With Matching Notifications </item>
+        <item>Lighter Oreo QS background </item>
+        <item>Added an option in settings for Oreo layout </item>
     </string-array>
 </resources>

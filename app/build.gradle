@@ -32,8 +32,8 @@ android {
         applicationId "com.ungeeked.ozone"
         minSdkVersion 26
         targetSdkVersion 26
-        versionCode 6
-        versionName "1.6"
+        versionCode 7
+        versionName "1.7"
         buildConfigField "String", "IV_KEY", "\"" + IV_KEY + "\""
         buildConfigField "byte[]", "DECRYPTION_KEY", String.valueOf("\"" + KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
         buildConfigField "byte[]", "IV_KEY", String.valueOf("\"" + IV_KEY + "\"").replace("\"", "").replace("[", "{").replace("]", "}")
