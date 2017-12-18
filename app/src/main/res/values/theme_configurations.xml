@@ -1,7 +1,7 @@
 <resources>
     <!-- Theme name and author name -->
     <string name="ThemeName">Ozone Essentials</string>
-    <string name="ThemeAuthor">ungeeked and amirz</string>
+    <string name="ThemeAuthor">ungeeked (and AmirZ)</string>
     <!-- Your email for bug reports -->
     <string name="ThemeAuthorEmail">azaidi@live.nl</string>
     <!-- Do you support Stock and Theme Ready Gapps? -> all -->
@@ -24,9 +24,6 @@
 
     <!-- Put your theme changelog here -->
     <string-array name="ThemeChangelog">
-        <item>Fix Wifi traffic indicators not showing </item>
-        <item>Oreo QS background is now divided in two parts - Stock and With Matching Notifications </item>
-        <item>Lighter Oreo QS background </item>
-        <item>Added an option in settings for Oreo layout </item>
+        <item>Remove non-essentials</item>
     </string-array>
 </resources>
