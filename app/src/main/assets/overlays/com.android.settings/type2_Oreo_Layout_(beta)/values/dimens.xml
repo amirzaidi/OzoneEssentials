@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-	<dimen name="dashboard_padding_start">0.0dip</dimen>
-	<dimen name="oneplus_contorl_divider_height_standard">0.0dip</dimen>
-	<dimen name="settings_side_margin">58.0dip</dimen>
-</resources>
