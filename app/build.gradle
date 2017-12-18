@@ -29,7 +29,7 @@ android {
     buildToolsVersion '27.0.1'
 
     defaultConfig {
-        applicationId "com.ungeeked.ozone"
+        applicationId "amirz.ozone.essentials"
         minSdkVersion 26
         targetSdkVersion 26
         versionCode 7
