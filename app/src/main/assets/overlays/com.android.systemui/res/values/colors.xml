@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
     <!--QS and related colors-->
     <color name="primary_default_dark">@*android:color/accent_material_dark</color>
     <color name="primary_default_light">@*android:color/accent_material_dark</color>

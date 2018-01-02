@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!--Main Accents-->
+    <color name="primary_default_light">@*android:color/accent_material_dark</color>
+	<color name="accent_default_light">@*android:color/accent_material_dark</color>
+	<color name="primary_default_dark">@*android:color/accent_material_dark</color>
+	<color name="accent_default_dark">@*android:color/accent_material_dark</color>
+
+	<!--Settings Background-->
+	<color name="oneplus_contorl_bg_color_dark">@*android:color/background_dark</color>
+	<color name="oneplus_contorl_bg_color_appbar_dark">@*android:color/background_dark</color>
+
+	<!--Settings Views-->
+	<color name="oneplus_contorl_bg_color_steppers_dark">@*android:color/background_dark</color>
+	<color name="oneplus_contorl_bg_color_dialogs_dark">@*android:color/background_dark</color>
+	<color name="oneplus_contorl_bg_color_menu_dark">@*android:color/background_dark</color>
+	<color name="oneplus_contorl_bg_color_bottomsheets_dark">@*android:color/background_dark</color>
+	<color name="oneplus_contorl_bg_color_cardview_dark">@*android:color/background_dark</color>
+	<color name="oneplus_contorl_bg_color_listbg_dark">@*android:color/background_dark</color>
+</resources>

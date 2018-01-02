@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="dialog_alert_accent_dark">@*android:color/accent_material_dark</color>
+    <color name="entry_page_tab_indicator_dark">@*android:color/accent_material_dark</color>
+    <color name="entry_page_tab_text_dark">#8affffff</color>
+    <color name="entry_page_tab_text_selected_dark">@*android:color/accent_material_dark</color>
+    <color name="gallery_accent_color">@*android:color/accent_material_dark</color>
+</resources>
