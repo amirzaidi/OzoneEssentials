@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="op_preferenceScreenStyle" format="reference" />
+    <attr name="op_preferenceActivityStyle" format="reference" />
+    <attr name="op_preferenceFragmentStyle" format="reference" />
+    <attr name="op_preferenceCategoryStyle" format="reference" />
+    <attr name="op_preferenceStyle" format="reference" />
+
+    <attr name="op_checkBoxPreferenceStyle" format="reference" />
+    <attr name="op_dialogPreferenceStyle" format="reference" />
+    <attr name="op_editTextPreferenceStyle" format="reference" />
+    <attr name="op_preferenceHeaderPanelStyle" format="reference" />
+    <attr name="op_preferenceListStyle" format="reference" />
+    <attr name="op_preferenceFragmentListStyle" format="reference" />
+    <attr name="op_switchPreferenceStyle" format="reference" />
+    <attr name="op_seekBarPreferenceStyle" format="reference" />
+
+    <attr name="OPListViewStyle" format="reference" />
+    <attr name="OPEditTextStyle" format="reference" />
+
+    <attr name="OPAlertDialogStyle" format="reference" />
+    <attr name="OPFloatingActionButtonStyle" format="reference" />
+    <attr name="OPToastStyle" format="reference" />
+    <attr name="OPSeekBarStyle" format="reference" />
+    <attr name="textAppearanceOPNumberPickerUnit" format="reference" />
+    <attr name="OPTabLayoutStyle" format="reference" />
+
+    <attr name="onePlusBaseColor" format="color" />
+    <attr name="onePlusTextColor" format="color" />
+    <attr name="onePlusSecondaryTextColor" format="color" />
+    <attr name="onePlusDisabledTextColor" format="color" />
+    <attr name="onePlusDisabledColor" format="color" />
+
+    <attr name="onePlusPrimaryColor" format="color" />
+    <attr name="onePlusAccentColor" format="color" />
+    <attr name="onePlusActionbarTitleColor" format="color" />
+    <attr name="onePlusActionbarSubtitleColor" format="color" />
+
+    <attr name="onePlusTabTextColor" format="color" />
+    <attr name="onePlusTabTextSelectedColor" format="color" />
+    <attr name="onePlusTabIndicatorColor" format="color" />
+
+    <attr name="onePlusActionbarIconColor" format="color" />
+    <attr name="onePlusActionbarBackgroundColor" format="color" />
+    <attr name="onePlusActionbarLineColor" format="color" />
+    <attr name="onePlusActionbarBackground" format="reference" />
+
+    <attr name="onePlusActionbarTitleAlpha" format="float" />
+    <attr name="onePlusActionbarSubtitleAlpha" format="float" />
+
+    <attr name="onePlusTabTextAlpha" format="float" />
+    <attr name="onePlusTabTextSelectedAlpha" format="float" />
+    <attr name="onePlusActionbarIconAlpha" format="float" />
+    <attr name="onePlusColorControlHighlight" format="color" />
+
+    <attr name="onePlusActionbarBackgroundColor" format="color" />
+    <attr name="onePlusActionbarLineColor" format="color" />
+    <attr name="onePlusActionbarTitleColor" format="color" />
+
+    <attr name="lockPatternStyle" format="reference" />
+
+    <attr name="preferenceFragmentListStyle" format="reference" />
+    <attr name="preferenceFragmentPaddingSide" format="dimension" />
+    <attr name="preferenceHeaderPanelStyle" format="reference" />
+    <attr name="preferenceListStyle" format="reference" />
+    <attr name="preferencePanelStyle" format="reference" />
+
+    <attr name="suwListItemIconColor" format="color" />
+    <attr name="preferenceTheme" format="reference" />
+
+    <attr name="switchBarTheme" format="reference" />
+    <attr name="preferenceBackgroundColor" format="color" />
+    <attr name="fingerprint_layout_theme" format="reference" />
+    <attr name="wifi_signal_color" format="color" />
+    <attr name="side_margin" format="dimension" />
+
+    <attr name="allowDividerAbove" format="boolean" />
+    <attr name="allowDividerBelow" format="boolean" />
+    <attr name="singleLineTitle" format="boolean" />
+</resources>
