@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.policy.SplitClockView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical">
+
+    <com.android.keyguard.clock.TextClockWithoutTimetick
+        android:id="@*com.android.systemui:id/time_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:singleLine="true"
+        android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Expanded.Clock"
+        android:textSize="@*com.android.systemui:dimen/qs_time_collapsed_size" />
+
+    <com.android.keyguard.clock.TextClockWithoutTimetick
+        android:id="@*com.android.systemui:id/am_pm_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:importantForAccessibility="no"
+        android:singleLine="true"
+        android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Expanded.Clock"
+        android:textSize="@*com.android.systemui:dimen/qs_time_collapsed_size" />
+
+    <TextView
+        android:id="@*com.android.systemui:id/empty_time_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="5.0dip"
+        android:layout_marginStart="5.0dip"
+        android:singleLine="true"
+        android:text="@*com.android.systemui:string/date_time_divider"
+        android:textAppearance="@*com.android.systemui:style/TextAppearance.StatusBar.Expanded.Clock"
+        android:textSize="@*com.android.systemui:dimen/qs_time_collapsed_size" />
+</com.android.systemui.statusbar.policy.SplitClockView>

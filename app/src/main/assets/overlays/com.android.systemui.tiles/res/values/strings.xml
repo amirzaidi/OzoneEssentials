@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="battery_detail_switch_title">Battery saver</string>
+    <string name="date_time_divider">•</string>
+</resources>

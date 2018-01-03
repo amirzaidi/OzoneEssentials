@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.statusbar.SignalClusterView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*com.android.systemui:id/signal_cluster"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:paddingEnd="@*com.android.systemui:dimen/signal_cluster_battery_padding">
+
+    <ImageView
+        android:id="@*com.android.systemui:id/vpn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@*com.android.systemui:string/accessibility_vpn_on"
+        android:paddingEnd="6.0dip"
+        android:src="@*com.android.systemui:drawable/stat_sys_vpn_ic" />
+
+    <FrameLayout
+        android:id="@*com.android.systemui:id/ethernet_combo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.android.systemui.statusbar.AlphaOptimizedImageView
+            android:id="@*com.android.systemui:id/ethernet"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="?lightIconTheme" />
+
+        <com.android.systemui.statusbar.AlphaOptimizedImageView
+            android:id="@*com.android.systemui:id/ethernet_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.0"
+            android:theme="?darkIconTheme" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="17.0dip">
+
+        <ImageView
+            android:id="@*com.android.systemui:id/wifi_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="2.0dip"
+            android:src="@*com.android.systemui:drawable/ic_activity_down"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@*com.android.systemui:id/wifi_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingEnd="2.0dip"
+            android:src="@*com.android.systemui:drawable/ic_activity_up"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@*com.android.systemui:id/wifi_combo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <com.android.systemui.statusbar.AlphaOptimizedImageView
+            android:id="@*com.android.systemui:id/wifi_signal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:theme="?lightIconTheme" />
+
+        <com.android.systemui.statusbar.AlphaOptimizedImageView
+            android:id="@*com.android.systemui:id/wifi_signal_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.0"
+            android:theme="?darkIconTheme" />
+
+        <ImageView
+            android:id="@*com.android.systemui:id/wifi_inout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|bottom|center"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <View
+        android:id="@*com.android.systemui:id/wifi_signal_spacer"
+        android:layout_width="@*com.android.systemui:dimen/status_bar_wifi_signal_spacer_width"
+        android:layout_height="4.0dip"
+        android:visibility="gone" />
+
+    <ViewStub
+        android:id="@*com.android.systemui:id/connected_device_signals_stub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout="@*com.android.systemui:layout/connected_device_signal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@*com.android.systemui:id/volte"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@*com.android.systemui:drawable/stat_sys_volte"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@*com.android.systemui:id/vowifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@*com.android.systemui:drawable/stat_sys_vowifi"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@*com.android.systemui:id/mobile_signal_group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <FrameLayout
+        android:id="@*com.android.systemui:id/no_sims_combo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@*com.android.systemui:string/accessibility_no_sims">
+
+        <com.android.systemui.statusbar.AlphaOptimizedImageView
+            android:id="@*com.android.systemui:id/no_sims"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@*com.android.systemui:drawable/stat_sys_no_sims"
+            android:theme="?lightIconTheme" />
+
+        <com.android.systemui.statusbar.AlphaOptimizedImageView
+            android:id="@*com.android.systemui:id/no_sims_dark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:alpha="0.0"
+            android:src="@*com.android.systemui:drawable/stat_sys_no_sims"
+            android:theme="?darkIconTheme" />
+    </FrameLayout>
+
+    <View
+        android:id="@*com.android.systemui:id/wifi_airplane_spacer"
+        android:layout_width="@*com.android.systemui:dimen/status_bar_airplane_spacer_width"
+        android:layout_height="4.0dip"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@*com.android.systemui:id/airplane"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</com.android.systemui.statusbar.SignalClusterView>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@*com.android.systemui:style/BrightnessDialogContainer"
+    android:layout_width="fill_parent"
+    android:layout_height="64.0dip"
+    android:layout_marginBottom="0.0dip"
+    android:layout_marginTop="0.0dip"
+    android:paddingEnd="15.0dip"
+    android:paddingStart="15.0dip">
+
+    <ImageView
+        android:id="@*com.android.systemui:id/brightness_level"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_gravity="center_vertical"
+        android:contentDescription="@null"
+        android:scaleType="centerInside"
+        android:src="@*com.android.systemui:drawable/ic_qs_brightness_high" />
+
+    <com.android.systemui.settings.ToggleSliderView
+        android:id="@*com.android.systemui:id/brightness_slider"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_weight="1.0"
+        android:contentDescription="@*com.android.systemui:string/accessibility_brightness"
+        android:importantForAccessibility="no"
+        android:text="@*com.android.systemui:string/status_bar_settings_auto_brightness_label"/>
+
+    <ImageView
+        android:id="@*com.android.systemui:id/brightness_icon"
+        android:layout_width="48.0dip"
+        android:layout_height="48.0dip"
+        android:layout_gravity="center_vertical"
+        android:background="@*com.android.systemui:drawable/ripple_drawable_dark"
+        android:contentDescription="@null"
+        android:scaleType="centerInside"
+        android:src="@*com.android.systemui:drawable/ic_qs_brightness_auto_off" />
+</LinearLayout>

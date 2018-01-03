@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.systemui.qs.QuickStatusBarHeader xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*com.android.systemui:id/header"
+    android:layout_width="fill_parent"
+    android:layout_height="@*com.android.systemui:dimen/status_bar_header_height"
+    android:layout_gravity="@*com.android.systemui:integer/notification_panel_layout_gravity"
+    android:background="#00000000"
+    android:baselineAligned="false"
+    android:clickable="false"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:elevation="4.0dip"
+    android:paddingEnd="0.0dip"
+    android:paddingStart="0.0dip"
+    android:paddingTop="0.0dip">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.android.systemui:dimen/qs_button_size"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="11.0dip"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingEnd="12.0dip"
+        android:paddingStart="22.0dip">
+
+        <include
+            android:id="@*com.android.systemui:id/clock"
+            layout="@*com.android.systemui:layout/split_clock_view"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent" />
+
+        <include
+            layout="@*com.android.systemui:layout/status_bar_alarm_group"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_toStartOf="@*com.android.systemui:id/clock" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end|bottom|center">
+
+            <com.android.systemui.BatteryMeterView
+                android:id="@*com.android.systemui:id/battery"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent" />
+
+            <com.android.systemui.statusbar.phone.MultiUserSwitch
+                android:id="@*com.android.systemui:id/multi_user_switch"
+                android:layout_width="@*com.android.systemui:dimen/qs_button_size"
+                android:layout_height="@*com.android.systemui:dimen/qs_button_size"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@*com.android.systemui:dimen/margin_right1"
+                android:background="@*com.android.systemui:drawable/ripple_drawable_dark"
+                android:focusable="true">
+
+                <ImageView
+                    android:id="@*com.android.systemui:id/multi_user_avatar"
+                    android:layout_width="@*com.android.systemui:dimen/multi_user_avatar_expanded_size"
+                    android:layout_height="@*com.android.systemui:dimen/multi_user_avatar_expanded_size"
+                    android:layout_gravity="center"
+                    android:scaleType="centerInside" />
+            </com.android.systemui.statusbar.phone.MultiUserSwitch>
+
+            <com.android.systemui.statusbar.AlphaOptimizedImageView
+                android:id="@android:id/edit"
+                android:layout_width="@*com.android.systemui:dimen/qs_button_size"
+                android:layout_height="@*com.android.systemui:dimen/qs_button_size"
+                android:layout_marginEnd="@*com.android.systemui:dimen/margin_right1"
+                android:background="@*com.android.systemui:drawable/ripple_drawable_dark"
+                android:clickable="true"
+                android:clipToPadding="false"
+                android:contentDescription="@*com.android.systemui:string/accessibility_quick_settings_edit"
+                android:focusable="true"
+                android:padding="8.0dip"
+                android:src="@*com.android.systemui:drawable/ic_mode_edit" />
+
+            <com.android.systemui.statusbar.AlphaOptimizedFrameLayout
+                android:id="@*com.android.systemui:id/settings_button_container"
+                android:layout_width="@*com.android.systemui:dimen/qs_button_size"
+                android:layout_height="@*com.android.systemui:dimen/qs_button_size"
+                android:layout_marginEnd="0.0dip"
+                android:clipChildren="false"
+                android:clipToPadding="false">
+
+                <com.android.systemui.statusbar.phone.SettingsButton
+                    android:id="@*com.android.systemui:id/settings_button"
+                    style="@android:style/Widget.Material.Button.Borderless"
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@*com.android.systemui:drawable/ripple_drawable_dark"
+                    android:contentDescription="@*com.android.systemui:string/accessibility_quick_settings_settings"
+                    android:src="@*com.android.systemui:drawable/ic_settings" />
+
+                <com.android.systemui.statusbar.AlphaOptimizedImageView
+                    android:id="@*com.android.systemui:id/tuner_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingStart="23.5dip"
+                    android:paddingTop="9.0dip"
+                    android:src="@*com.android.systemui:drawable/ic_tuner"
+                    android:visibility="invisible" />
+            </com.android.systemui.statusbar.AlphaOptimizedFrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.android.systemui.qs.QuickQSPanel
+        android:id="@*com.android.systemui:id/quick_qs_panel"
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.android.systemui:dimen/qs_quick_panel_height"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="13.0dip"
+        android:layout_marginStart="13.0dip"
+        android:layout_marginTop="@*com.android.systemui:dimen/qs_header_upper_height"
+        android:accessibilityTraversalAfter="@*com.android.systemui:id/date_time_group"
+        android:accessibilityTraversalBefore="@*com.android.systemui:id/expand_indicator"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:focusable="true"
+        android:importantForAccessibility="yes" />
+
+    <com.android.systemui.statusbar.AlphaOptimizedImageView
+        android:id="@*com.android.systemui:id/qs_detail_header_progress"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:alpha="0.0"
+        android:background="@*com.android.systemui:color/qs_detail_progress_track"
+        android:src="@*com.android.systemui:drawable/indeterminate_anim" />
+
+    <TextView
+        android:id="@*com.android.systemui:id/header_debug_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:fontFamily="sans-serif-condensed"
+        android:padding="2.0dip"
+        android:textColor="#ff00a040"
+        android:textSize="11.0dip"
+        android:textStyle="bold"
+        android:visibility="invisible" />
+</com.android.systemui.qs.QuickStatusBarHeader>
