@@ -14,9 +14,9 @@
     <color name="primary_default_dark">@*android:color/accent_material_dark</color>
     <color name="accent_default_dark">@*android:color/accent_material_dark</color>
 
-    <color name="oneplus_contorl_text_color_primary_dark">#ffffffff</color>
+    <!--<color name="oneplus_contorl_text_color_primary_dark">#ffffffff</color>
     <color name="oneplus_contorl_text_color_secondary_dark">#7affffff</color>
     <color name="oneplus_contorl_text_color_disable_dark">#3dffffff</color>
     <color name="oneplus_contorl_icon_color_active_dark">#89ffffff</color>
-    <color name="oneplus_contorl_bg_color_appbar_dark">#ff000000</color>
+    <color name="oneplus_contorl_bg_color_appbar_dark">#ff000000</color>-->
 </resources>
