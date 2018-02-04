@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="dismiss_all_button_width">0dp</dimen>
+    <dimen name="dismiss_all_button_height">0dp</dimen>
+    <dimen name="recents_dismiss_all_button_size">0dp</dimen>
+
+    <dimen name="status_bar_header_height_keyguard">40dp</dimen>
+    <dimen name="keyguard_indication_margin_bottom">65dp</dimen>
+    <dimen name="dash_view_margin_bottom">35dp</dimen>
+</resources>
