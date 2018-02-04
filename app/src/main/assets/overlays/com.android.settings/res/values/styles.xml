@@ -356,8 +356,6 @@
         <item name="onePlusColorControlHighlight">@*com.android.settings:color/op_ripple_material_dark</item>
     </style>
 
-    <!-- Don't touch these.. -->
-    <!--<style name="Oneplus.Theme.Material.Light" parent="@style/OneplusThemeLightBase" />-->
     <!--<style name="Oneplus.Theme.Material.Light.DarkActionBar" parent="@style/Oneplus.Theme.Material.Light">
         <item name="android:actionBarWidgetTheme">@null</item>
         <item name="android:actionBarTheme">@null</item>
@@ -390,6 +388,28 @@
         <item name="panelMenuListTheme">@*android:style/Theme.Material.Settings.CompactMenu</item>
         <item name="searchDialogTheme">@*android:style/Theme.Material.Settings.SearchBar</item>
     </style>-->
+    <style name="Oneplus.Theme.Material.Light.DarkActionBar" parent="@*com.android.settings:style/Oneplus.Theme.Material.Light">
+        <item name="android:actionBarWidgetTheme">@null</item>
+        <item name="android:actionBarTheme">@*com.android.settings:style/Oneplus.ThemeOverlay.Material.Dark.ActionBar</item>
+        <item name="android:colorPrimary">@*com.android.settings:color/primary_material_dark</item>
+        <item name="android:colorPrimaryDark">@*com.android.settings:color/primary_dark_material_dark</item>
+        <item name="android:popupTheme">@*com.android.settings:style/Oneplus.ThemeOverlay.Material.Light</item>
+        <item name="onePlusActionbarTitleColor">@*com.android.settings:color/oneplus_contorl_text_color_primary_dark</item>
+        <item name="onePlusActionbarSubtitleColor">@*com.android.settings:color/oneplus_contorl_text_color_secondary_dark</item>
+        <item name="onePlusTabTextColor">@*com.android.settings:color/oneplus_contorl_text_color_disable_dark</item>
+        <item name="onePlusTabTextSelectedColor">@*com.android.settings:color/oneplus_contorl_text_color_primary_dark</item>
+        <item name="onePlusTabIndicatorColor">@*com.android.settings:color/oneplus_contorl_text_color_primary_dark</item>
+        <item name="onePlusActionbarIconColor">@*com.android.settings:color/oneplus_contorl_icon_color_active_dark</item>
+        <item name="onePlusActionbarBackgroundColor">@*com.android.settings:color/oneplus_contorl_bg_color_appbar_dark</item>
+        <item name="onePlusActionbarLineColor">#1e000000</item>
+        <item name="onePlusActionbarBackground">@drawable/op_actionbar_background</item>
+        <item name="onePlusActionbarTitleAlpha">1.0</item>
+        <item name="onePlusActionbarSubtitleAlpha">0.7</item>
+        <item name="onePlusTabTextAlpha">1.0</item>
+        <item name="onePlusTabTextSelectedAlpha">1.0</item>
+        <item name="onePlusActionbarIconAlpha">1.0</item>
+        <item name="onePlusColorControlHighlight">@*com.android.settings:color/op_ripple_material_dark</item>
+    </style>
 
     <!--<style name="Oneplus.Theme.DeviceDefault" parent="@*com.android.settings:style/Oneplus.Theme.Material.Light.DarkActionBar">
         <item name="onePlusActionbarBackgroundColor">@*com.android.settings:color/actionbar_blue</item>
@@ -397,36 +417,23 @@
     </style>-->
 
     <style name="Theme.SettingsBase" parent="@*com.android.settings:style/Oneplus.Theme.DeviceDefault">
-        <!--<item name="android:dividerHeight">@*com.android.settings:dimen/oneplus_contorl_divider_height_standard</item>
-        <item name="android:listDivider">@*com.android.settings:color/oneplus_contorl_divider_color_default</item>
-        <item name="android:colorControlNormal">@*com.android.settings:color/oneplus_settings_text_color_primary</item>
-        <item name="android:colorPrimary">?onePlusActionbarBackgroundColor</item>
-        <item name="android:colorPrimaryDark">?onePlusActionbarBackgroundColor</item>
-        <item name="android:colorAccent">@*com.android.settings:color/settings_accent_color</item>-->
-
         <item name="onePlusPrimaryColor">@*com.android.settings:color/settings_accent_color</item>
         <item name="onePlusActionbarBackgroundColor">@*com.android.settings:color/oneplus_main_home_bg_ab</item>
     </style>
 
     <style name="PreferenceTheme" parent="@*com.android.settings:style/Oneplus.Theme.DeviceDefault">
-        <!--<item name="android:preferenceScreenStyle">@*com.android.settings:style/OPPreference.Material</item>
-        <item name="android:preferenceCategoryStyle">@*com.android.settings:style/PreferenceCategoryStyle</item>
-        <item name="android:preferenceInformationStyle">@*com.android.settings:style/OPPreference.Material</item>
-        <item name="android:preferenceStyle">@*com.android.settings:style/OPPreference.Material</item>
-
-        <item name="android:checkBoxPreferenceStyle">@*com.android.settings:style/OPPreference.Material.CheckBoxPreference</item>
-        <item name="android:dialogPreferenceStyle">@*com.android.settings:style/OPPreference.Material</item>
-        <item name="android:editTextPreferenceStyle">@*com.android.settings:style/EditTextPreference</item>
-        <item name="android:dividerHeight">1.0dip</item>
-        <item name="android:listDivider">@*com.android.settings:color/oneplus_contorl_divider_color_default</item>
-        <item name="android:switchPreferenceStyle">@*com.android.settings:style/OPPreference.Material.SwitchPreference</item>
-        <item name="android:colorAccent">@*com.android.settings:color/settings_accent_color</item>-->
-
         <item name="onePlusPrimaryColor">@*com.android.settings:color/settings_accent_color</item>
         <item name="dropdownPreferenceStyle">@*com.android.settings:style/OPPreference.Material.DropDownPreference</item>
         <item name="apnPreferenceStyle">@*com.android.settings:style/ApnPreference</item>
         <item name="footerPreferenceStyle">@*com.android.settings:style/FooterPreference</item>
     </style>
+
+    <!--<style name="Base.Widget.Design.AppBarLayout" parent="@*android:style/Widget">
+        <item name="android:background">@drawable/op_appbar_background</item>
+    </style>
+    <style name="Widget.Design.AppBarLayout" parent="@style/Base.Widget.Design.AppBarLayout">
+        <item name="android:stateListAnimator">@anim/op_design_appbar_state_list_animator</item>
+    </style>-->
 
     <!--<style name="Theme.Settings" parent="@*com.android.settings:style/Theme.SettingsBase">
         <item name="android:actionBarStyle">@*com.android.settings:style/Theme.ActionBar</item>
@@ -452,13 +459,7 @@
         <item name="side_margin">@*com.android.settings:dimen/settings_side_margin</item>
         <item name="wifi_signal_color">?android:colorAccent</item>
     </style>-->
-    <!--<style name="PreferenceTheme" parent="@style/Oneplus.Theme.DeviceDefault">
-        <item name="android:dividerHeight">1.0dip</item>
-        <item name="android:listDivider">@color/oneplus_contorl_divider_color_default</item>
-        <item name="android:colorAccent">@color/settings_accent_color</item>
-        <item name="onePlusPrimaryColor">@color/settings_accent_color</item>
-    </style>
-    <style name="Theme.SettingsBase" parent="@style/Oneplus.Theme.DeviceDefault">-->
+    <!--<style name="Theme.SettingsBase" parent="@style/Oneplus.Theme.DeviceDefault">-->
     <!--<item name="onePlusActionbarBackgroundColor">@*android:color/white</item>
     <item name="onePlusActionbarLineColor">@*android:color/transparent</item>
     <item name="onePlusActionbarTitleColor">@*android:color/black</item>--><!--
@@ -466,11 +467,28 @@
 
     <!--<style name="Theme.SettingsBase" parent="@*android:style/Theme.DeviceDefault.Settings" />-->
 
-    <style name="Oneplus.Widget.Material.CompoundButton.Switch" parent="@*com.android.settings:style/Widget.Material.CompoundButton.Switch" />
-    <style name="Oneplus.Widget.Material.Light.CompoundButton.Switch" parent="@*com.android.settings:style/Widget.Material.CompoundButton.Switch" />
+    <!-- Main Actionbar Colour -->
+    <style name="Oneplus.TextAppearance.Material.Widget.ActionBar.Title" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">@*com.android.settings:color/op_actionbar_title_text_material</item>
+        <!--<item name="android:textColor">?android:colorAccent</item>-->
+    </style>
 
-    <style name="Oneplus.Widget.Material.EditText" parent="@*android:style/Widget.EditText" />
-    <style name="Oneplus.Widget.Material.Light.EditText" parent="@style/Oneplus.Widget.Material.EditText" />
+    <!-- Preferences -->
+    <style name="OPPreference.Material" parent="@*com.android.settings:style/Preference.Material" />
+    <style name="OPPreference.Material.SwitchPreference" parent="@*com.android.settings:style/Preference.SwitchPreference.Material" />
+    <style name="OPPreference.Material.CheckBoxPreference" parent="@*com.android.settings:style/Preference.CheckBoxPreference.Material" />
+    <style name="OPPreference.Material.DropDownPreference" parent="@*com.android.settings:style/Preference.DropDown.Material" />
+
+    <!-- Popups -->
+    <style name="Theme.Dialog" parent="@*com.android.settings:style/Oneplus.Theme.DeviceDefault.Dialog">
+        <item name="onePlusPrimaryColor">@*com.android.settings:color/settings_accent_color</item>
+    </style>
+    <style name="Theme.AlertDialog" parent="@*com.android.settings:style/Oneplus.Theme.DeviceDefault.Dialog.Alert">
+        <item name="onePlusPrimaryColor">@*com.android.settings:color/settings_accent_color</item>
+    </style>
+
+    <!--<style name="Oneplus.Widget.Material.CompoundButton.Switch" parent="@*com.android.settings:style/Widget.Material.CompoundButton.Switch" />
+    <style name="Oneplus.Widget.Material.Light.CompoundButton.Switch" parent="@*com.android.settings:style/Widget.Material.CompoundButton.Switch" />
 
     <style name="Oneplus.Widget.Material.CompoundButton.RadioButton" parent="@*android:style/Widget.Material.CompoundButton.RadioButton" />
     <style name="Oneplus.Widget.Material.Light.CompoundButton.RadioButton" parent="@*android:style/Widget.Material.CompoundButton.RadioButton" />
@@ -483,9 +501,6 @@
     <style name="Oneplus.Widget.Material.ActionBar.Solid" parent="@*android:style/Widget.Material.ActionBar.Solid" />
     <style name="Oneplus.Widget.Material.Light.ActionBar.Solid" parent="@*android:style/Widget.Material.Light.ActionBar.Solid" />
 
-    <style name="Oneplus.TextAppearance.Material.Widget.ActionBar.Title" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title">
-        <item name="android:textColor">@*com.android.settings:color/op_actionbar_title_text_material</item>
-    </style>
     <style name="Oneplus.TextAppearance.Material.Widget.ActionBar.Subtitle" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Subtitle" />
 
     <style name="Oneplus.Widget.Material.SearchView.ActionBar" parent="@*android:style/Widget.Material.SearchView" />
@@ -525,9 +540,6 @@
     <style name="Oneplus.Preference.Material.Category" parent="@*android:style/Preference.Material.Category" />
     <style name="Oneplus.Preference.Material.Light.Category" parent="@*android:style/Preference.Material.Category" />
 
-    <style name="Theme.Dialog" parent="@*android:style/Theme.Material.Dialog" />
-    <style name="Theme.AlertDialog" parent="@*android:style/Theme.Material.Dialog.Alert" />
-
     <style name="Theme.ActionBar" parent="@*android:style/Widget.Material.ActionBar.Solid" />
     <style name="Theme.ActionBarNoTitle" parent="@*android:style/Widget.Material.ActionBar.Solid" />
 
@@ -542,8 +554,5 @@
     <style name="ApnPreference" parent="@*android:style/Preference.Material" />
     <style name="FooterPreference" parent="@*android:style/Preference.Material" />
     <style name="EditTextPreference" parent="@*android:style/Preference.Material.DialogPreference.EditTextPreference" />
-
-    <style name="OPPreference.Material" parent="@*android:style/Preference.Material" />
-    <style name="OPPreference.Material.SwitchPreference" parent="@*android:style/Preference.Material.SwitchPreference" />
-    <style name="OPPreference.Material.CheckBoxPreference" parent="@*android:style/Preference.Material.CheckBoxPreference" />
+-->
 </resources>
