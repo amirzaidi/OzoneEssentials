@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="primary_default_dark">@*android:color/accent_material_dark</color>
-    <color name="primary_default_light">@*android:color/accent_material_dark</color>
+    <color name="accent_default_dark">@*android:color/accent_material_dark</color>
+    <color name="primary_default_light">@*android:color/accent_material_light</color>
+    <color name="accent_default_light">@*android:color/accent_material_light</color>
+
     <color name="op_primary_default_light">@*android:color/accent_material_dark</color>
     <color name="op_user_icon_1">@*android:color/accent_material_dark</color>
     <color name="android_volume_panel_seekbar_color">@*android:color/accent_material_dark</color>
