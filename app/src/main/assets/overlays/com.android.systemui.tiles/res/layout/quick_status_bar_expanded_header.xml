@@ -18,13 +18,13 @@
         android:layout_width="fill_parent"
         android:layout_height="@*com.android.systemui:dimen/qs_button_size"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="11.0dip"
+        android:layout_marginTop="10dp"
         android:clipChildren="false"
         android:clipToPadding="false"
         android:gravity="center"
         android:orientation="horizontal"
-        android:paddingEnd="13.0dip"
-        android:paddingStart="22.0dip">
+        android:paddingEnd="18.75dp"
+        android:paddingStart="20.5dp">
 
         <include
             android:id="@*com.android.systemui:id/clock"

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Internal brightness slider -->
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:systemui="http://schemas.android.com/apk/res/com.android.systemui">
+
+    <CheckBox
+        android:id="@*com.android.systemui:id/toggle"
+        android:layout_width="48dp"
+        android:layout_height="0dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@*android:drawable/switch_track_material"
+        android:button="@null"
+        android:visibility="gone" />
+
+    <com.android.systemui.settings.ToggleSeekBar
+        android:id="@*com.android.systemui:id/slider"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@*com.android.systemui:id/toggle"
+        android:paddingStart="32dp"
+        android:paddingEnd="32dp"
+        android:paddingTop="27dp"
+        android:paddingBottom="27dp"
+        android:splitTrack="false"
+        android:thumb="@*com.android.systemui:drawable/ic_brightness_thumb" />
+
+    <TextView
+        android:id="@*com.android.systemui:id/label"
+        android:layout_width="0.0dip"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@*com.android.systemui:id/toggle"
+        android:layout_alignStart="@*com.android.systemui:id/toggle"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:paddingTop="26.0dip"
+        android:textColor="#ff666666"
+        android:textSize="12.0sp"
+        android:visibility="gone" />
+</merge>

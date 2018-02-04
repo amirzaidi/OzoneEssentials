@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- Container for quick settings brightness slider -->
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     style="@*com.android.systemui:style/BrightnessDialogContainer"
-    android:layout_width="fill_parent"
-    android:layout_height="64.0dip"
-    android:layout_marginBottom="0.0dip"
-    android:layout_marginTop="0.0dip"
-    android:paddingEnd="15.0dip"
-    android:paddingStart="15.0dip">
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:layout_marginTop="-10dp"
+    android:layout_marginBottom="-5dp">
 
     <ImageView
-        android:id="@*com.android.systemui:id/brightness_level"
-        android:layout_width="48.0dip"
-        android:layout_height="48.0dip"
+        android:id="@*com.android.systemui:id/brightness_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:layout_gravity="center_vertical"
+        android:layout_marginEnd="8dp"
         android:contentDescription="@null"
         android:scaleType="centerInside"
-        android:src="@*com.android.systemui:drawable/ic_qs_brightness_high" />
+        android:src="@*com.android.systemui:drawable/ic_qs_brightness_auto_off"
+        android:visibility="gone" />
 
     <com.android.systemui.settings.ToggleSliderView
         android:id="@*com.android.systemui:id/brightness_slider"
@@ -28,12 +29,12 @@
         android:text="@*com.android.systemui:string/status_bar_settings_auto_brightness_label"/>
 
     <ImageView
-        android:id="@*com.android.systemui:id/brightness_icon"
+        android:id="@*com.android.systemui:id/brightness_level"
         android:layout_width="48.0dip"
         android:layout_height="48.0dip"
         android:layout_gravity="center_vertical"
-        android:background="@*com.android.systemui:drawable/ripple_drawable_dark"
         android:contentDescription="@null"
         android:scaleType="centerInside"
-        android:src="@*com.android.systemui:drawable/ic_qs_brightness_auto_off" />
+        android:visibility="gone"
+        android:src="@*com.android.systemui:drawable/ic_qs_brightness_high" />
 </LinearLayout>

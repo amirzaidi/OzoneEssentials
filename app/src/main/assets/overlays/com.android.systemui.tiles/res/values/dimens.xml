@@ -8,4 +8,12 @@
     <dimen name="qs_tile_text_size">12sp</dimen>
     <dimen name="qs_tile_padding_top">14dp</dimen>
     <dimen name="qs_tile_padding_below_icon">12dp</dimen>
+
+    <dimen name="status_bar_header_height">104dp</dimen>
+    <dimen name="status_bar_header_height_expanded">116dp</dimen>
+    <dimen name="qs_header_upper_height">45dp</dimen>
+    <dimen name="qs_edit_tile_margin_bottom">6dp</dimen>
+
+    <dimen name="qs_time_collapsed_size">14sp</dimen>
+    <dimen name="qs_time_expanded_size">20sp</dimen>
 </resources>
