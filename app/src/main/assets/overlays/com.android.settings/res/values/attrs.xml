@@ -759,4 +759,8 @@
     <attr name="setup_divider_color" format="reference" />
     <attr name="side_margin" format="reference|dimension" />
     <attr name="wifi_signal_color" format="reference" />
+
+    <attr name="majorWeightMax" format="reference" />
+    <attr name="preferenceFrameLayoutStyle" format="reference" />
+    <attr name="searchDialogTheme" format="reference" />
 </resources>

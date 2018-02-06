@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="@*com.android.settings:color/oneplus_contorl_divider_color_default" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@*com.android.settings:dimen/oneplus_settings_layout_margin_top1" />
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.android.settings.dashboard.conditional.FocusRecyclerView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*com.android.settings:id/dashboard_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingBottom="@*com.android.settings:dimen/dashboard_padding_bottom"
+    android:paddingEnd="@*com.android.settings:dimen/dashboard_padding_end"
+    android:paddingStart="@*com.android.settings:dimen/dashboard_padding_start"
+    android:paddingTop="@*com.android.settings:dimen/dashboard_padding_top"
+    android:scrollbars="vertical" />

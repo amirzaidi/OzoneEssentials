@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="?android:selectableItemBackground"
+    android:clipToPadding="false"
+    android:focusable="true"
+    android:gravity="center_vertical"
+    android:minHeight="?android:listPreferredItemHeightSmall"
+    android:paddingLeft="?android:listPreferredItemPaddingLeft"
+    android:paddingRight="?android:listPreferredItemPaddingRight">
+
+    <ImageView
+        android:id="@*android:id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1.0"
+        android:paddingBottom="16.0dip"
+        android:paddingTop="16.0dip">
+
+        <TextView
+            android:id="@*android:id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textAppearance="@*com.android.settings:style/Preference_TextAppearanceMaterialSubhead" />
+
+        <TextView
+            android:id="@*android:id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@*android:id/title"
+            android:layout_below="@*android:id/title"
+            android:maxLines="10"
+            android:textAppearance="?android:textAppearanceSmall"
+            android:textColor="?android:textColorSecondary" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@*com.android.settings:id/secondary_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@*com.android.settings:drawable/ic_color_picker_icon_notification"
+         />
+
+    <LinearLayout
+        android:id="@*android:id/widget_frame"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical" />
+</LinearLayout>

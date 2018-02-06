@@ -7,7 +7,7 @@
         <item name="android:elevation">0.0dip</item>
     </style>
     <style name="Oneplus.Widget.Material.Light.CompoundButton.Switch" parent="@*com.android.settings:style/Widget.Material.CompoundButton.Switch">
-       <item name="android:thumb">@*com.android.settings:drawable/op_switch_thumb_material_light_anim</item>
+        <item name="android:thumb">@*com.android.settings:drawable/op_switch_thumb_material_light_anim</item>
         <item name="android:radius">@*com.android.settings:dimen/switch_ripple_radius</item>
         <item name="android:track">@*com.android.settings:drawable/switch_track_material</item>
         <item name="android:elevation">0.0dip</item>
@@ -21,8 +21,34 @@
         <item name="onePlusPrimaryColor">@*com.android.settings:color/settings_accent_color</item>
     </style>
 
+    <style name="Oneplus.Theme.Material.Light.DarkActionBar" parent="@*com.android.settings:style/Oneplus.Theme.Material.Light" />
+
+    <!-- Submenu accent colour -->
+    <style name="Oneplus.Widget.Material.Light.ActionBar.Solid" parent="@*android:style/Widget.Material.Light.ActionBar.Solid" />
+    <style name="Oneplus.ThemeOverlay.Material.ActionBar" parent="@*android:style/ThemeOverlay.DeviceDefault.ActionBar.Accent" />
+
+    <!-- Submenu elevation -->
+    <style name="Theme.ActionBar" parent="@*android:style/Widget.Material.ActionBar.Solid">
+        <item name="android:contentInsetStart">@*com.android.settings:dimen/actionbar_contentInsetStart</item>
+    </style>
+
+    <style name="TextAppearance.Material.Body2" parent="@*android:style/TextAppearance">
+        <item name="android:textSize">@*com.android.settings:dimen/text_size_body_2_material</item>
+        <item name="android:fontFamily">@*com.android.settings:string/font_family_body_2_material</item>
+        <item name="android:textColor">?android:textColorPrimary</item>
+    </style>
+
+    <!-- Dashboard accent colour -->
+    <style name="Oneplus.TextAppearance.Material.Widget.ActionBar.Title" parent="@*android:style/TextAppearance.Material.Widget.ActionBar.Title">
+        <item name="android:textColor">?android:colorAccent</item>
+    </style>
+
+    <!-- Disable expanding actionbar -->
     <style name="Widget.Design.CollapsingToolbar" parent="@*android:style/Widget">
         <item name="opTitleEnabled">false</item>
+        <item name="opExpandedTitleMarginStart">@*com.android.settings:dimen/oneplus_contorl_layout_margin_left2</item>
+        <item name="opExpandedTitleMarginEnd">@*com.android.settings:dimen/oneplus_contorl_layout_margin_right2</item>
+        <item name="opExpandedTitleMarginBottom">@*com.android.settings:dimen/oneplus_contorl_layout_margin_bottom2</item>
         <item name="opStatusBarScrim">?android:colorPrimaryDark</item>
     </style>
 </resources>

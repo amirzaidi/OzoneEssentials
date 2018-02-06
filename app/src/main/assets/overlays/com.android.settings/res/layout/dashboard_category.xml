@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@*com.android.settings:id/category"
+    android:layout_width="0dp"
+    android:layout_height="0dp">
+
+    <View
+        android:id="@*com.android.settings:id/divider"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+    <TextView
+        android:id="@*android:id/title"
+        android:layout_width="0dp"
+        android:layout_height="0dp" />
+
+</LinearLayout>

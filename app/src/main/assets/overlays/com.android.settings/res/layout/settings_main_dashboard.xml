@@ -18,15 +18,13 @@
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:fitsSystemWindows="true"
-            app:opContentScrim="?android:colorPrimary"
-            app:op_layout_scrollFlags="opExitUntilCollapsed|opSnap">
+            app:opContentScrim="?android:colorPrimary">
 
             <Toolbar
                 android:id="@*com.android.settings:id/toolbar"
                 android:layout_width="fill_parent"
                 android:layout_height="?android:actionBarSize"
-                android:popupTheme="@*com.android.settings:style/Oneplus.ThemeOverlay.Material.Light"
-                app:op_layout_collapseMode="opPin" />
+                android:popupTheme="@*com.android.settings:style/Oneplus.ThemeOverlay.Material.Light" />
         </com.oneplus.lib.design.widget.CollapsingToolbarLayout>
     </com.oneplus.lib.design.widget.AppBarLayout>
 

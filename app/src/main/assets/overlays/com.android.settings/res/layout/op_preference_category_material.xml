@@ -3,9 +3,9 @@
     android:id="@*android:id/title"
     android:layout_width="fill_parent"
     android:layout_height="wrap_content"
-    android:layout_marginBottom="16.0dip"
-    android:paddingLeft="?android:listPreferredItemPaddingLeft"
-    android:paddingRight="?android:listPreferredItemPaddingRight"
+    android:layout_marginBottom="8.0dip"
+    android:paddingStart="?android:attr/listPreferredItemPaddingStart"
+    android:paddingEnd="?android:attr/listPreferredItemPaddingEnd"
     android:paddingTop="16.0dip"
-    android:textAppearance="@*com.android.settings:style/Preference_TextAppearanceMaterialBody2"
-    android:textColor="@*com.android.settings:color/preference_fallback_accent_color" />
+    android:textAppearance="@*com.android.settings:style/TextAppearance.Material.Body2"
+    android:textColor="?android:attr/colorAccent" />
