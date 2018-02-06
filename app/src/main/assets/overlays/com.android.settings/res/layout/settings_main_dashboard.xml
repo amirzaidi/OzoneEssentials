@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.oneplus.lib.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@*com.android.settings:id/main_coordinatorLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true">
+
+    <com.oneplus.lib.design.widget.AppBarLayout
+        android:id="@*com.android.settings:id/app_bar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:theme="@*com.android.settings:style/Oneplus.ThemeOverlay.Material.Dark.ActionBar">
+
+        <com.oneplus.lib.design.widget.CollapsingToolbarLayout
+            android:id="@*com.android.settings:id/toolbar_layout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:fitsSystemWindows="true"
+            app:opContentScrim="?android:colorPrimary"
+            app:op_layout_scrollFlags="opExitUntilCollapsed|opSnap">
+
+            <Toolbar
+                android:id="@*com.android.settings:id/toolbar"
+                android:layout_width="fill_parent"
+                android:layout_height="?android:actionBarSize"
+                android:popupTheme="@*com.android.settings:style/Oneplus.ThemeOverlay.Material.Light"
+                app:op_layout_collapseMode="opPin" />
+        </com.oneplus.lib.design.widget.CollapsingToolbarLayout>
+    </com.oneplus.lib.design.widget.AppBarLayout>
+
+    <FrameLayout
+        android:id="@*com.android.settings:id/main_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        app:op_layout_behavior="@*com.android.settings:string/appbar_scrolling_view_behavior" />
+</com.oneplus.lib.design.widget.CoordinatorLayout>
